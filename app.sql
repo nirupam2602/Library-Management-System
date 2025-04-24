@@ -10,8 +10,8 @@ USE LibraryDB;
 -- Create table for books
 CREATE TABLE Books (
     BookID INT PRIMARY KEY AUTO_INCREMENT,
-    Title VARCHAR(255) NOT NULL,
-    Author VARCHAR(255),
+    Title VARCHAR(200) NOT NULL,
+    Author VARCHAR(200),
     Genre VARCHAR(100),
     PublishedYear INT
 );
@@ -19,8 +19,8 @@ CREATE TABLE Books (
 -- Create table for borrowers
 CREATE TABLE Borrowers (
     BorrowerID INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(255) NOT NULL,
-    Email VARCHAR(255) UNIQUE NOT NULL
+    Name VARCHAR(200) NOT NULL,
+    Email VARCHAR(200) UNIQUE NOT NULL
 );
 
 -- Create table for tracking book loans
