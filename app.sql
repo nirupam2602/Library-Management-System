@@ -10,9 +10,9 @@ USE LibraryDB;
 -- Create table for books
 CREATE TABLE Books (
     BookID INT PRIMARY KEY AUTO_INCREMENT,
-    Title VARCHAR(91) NOT NULL,
-    Author VARCHAR(91),
-    Genre VARCHAR(91),
+    Title VARCHAR(92) NOT NULL,
+    Author VARCHAR(92),
+    Genre VARCHAR(92),
     PublishedYear INT
 );
 
