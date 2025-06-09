@@ -19,7 +19,7 @@ CREATE TABLE Books (
 -- Create table for borrowers
 CREATE TABLE Borrowers (
     BorrowerID INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(99) NOT NULL,
+    Name VARCHAR(98) NOT NULL,
     Email VARCHAR(99) UNIQUE NOT NULL
 );
 
