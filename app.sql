@@ -11,7 +11,7 @@ USE LibraryDB;
 CREATE TABLE Books (
     BookID INT PRIMARY KEY AUTO_INCREMENT,
     Title VARCHAR(99) NOT NULL,
-    Author VARCHAR(85),
+    Author VARCHAR(95),
     Genre VARCHAR(95),
     PublishedYear INT
 );
